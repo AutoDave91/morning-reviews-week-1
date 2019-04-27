@@ -28,6 +28,7 @@ console.log(user.birthday);
 
 //8. What is the other way to access a property in an object (besides using dot notation)?
 
+
 //PRACTICE - DOT NOTATION
 
 const dress = {
@@ -57,3 +58,28 @@ const skirt = {
 //Access the type of fabric property. Use console.log.
 
 // NOTE: With bracket notation, property names with spaces in them must be in quotes (single or double).
+
+
+
+
+//DOT NOTATION VERSUS BRACKET NOTATION
+
+var myObj = {
+  1: 'one',
+  two: 2,
+  three: 3,
+  4: 4
+}
+
+var myNumber = 'three'
+
+//9. Why can't we use dot notation in the following way to access 'one':
+
+myObj.1
+
+//10. Why can't we use the following to access 'three'?
+
+myObj.myNumber
+
+//NOTE: When using dot notation, the word after the dot is the literal name of the property. When using bracket notation, the expression between the brackets is EVALUATED to get the property name.
+
