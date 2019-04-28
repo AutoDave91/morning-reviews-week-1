@@ -83,3 +83,4 @@ myObj.myNumber
 
 //NOTE: When using dot notation, the word after the dot is the literal name of the property. When using bracket notation, the expression between the brackets is EVALUATED to get the property name.
 
+
